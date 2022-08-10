@@ -169,7 +169,7 @@ html{
   
   @media screen and (max-width: 640px){
     #note-display{
-      margin: 225px 5% 2rem 5%;
+      margin: 225px 10% 2rem 10%;
       justify-content: center;
     }
   }
