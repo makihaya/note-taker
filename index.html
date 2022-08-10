@@ -1,0 +1,37 @@
+<html lang="en">
+
+    <head>      
+        <link rel="stylesheet" href="index.css">  
+    </head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+<body>
+ 
+ <div id="panel">
+  <h1>Note Taker</h1>
+  <h2>New Note:</h2>
+  
+  <div id="controls">
+  <select id="select-color" class="controls">
+    <option value="select-white">White</option>
+    <option value="select-pink">Pink</option>
+    <option value="select-yellow">Yellow</option>
+    <option value="select-green">Green</option>
+    <option value="select-blue">Blue</option>
+    <option value="select-purple">Purple</option>  
+  </select>
+  
+  <button type="submit" id="submit" class="controls" onclick="createNote()">Create Note</button>
+  <button type="submit" id="clear" class="controls">Clear All</button>
+  </div>
+    </div>
+    
+  <div id="note-display">
+  </div>
+
+</body>
+
+    <script src="code.js">
+    </script>
+</html>
